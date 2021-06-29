@@ -1,3 +1,5 @@
+// 来自Vue文档
+
 // 维持一个执行副作用的栈
 const runningEffects = []
 

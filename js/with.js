@@ -1,3 +1,4 @@
+
 function test(obj){
 
     with (obj) {
@@ -16,4 +17,4 @@ test(o1)
 test(o2)
 console.log(o1.a);
 console.log(o2.a);
-console.log(a);
+console.log(a); // 暴露到了Global

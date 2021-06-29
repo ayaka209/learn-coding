@@ -1,3 +1,4 @@
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet
 function execRecursively(fn, subject, _refs = null){
     if(!_refs)
         _refs = new WeakSet();

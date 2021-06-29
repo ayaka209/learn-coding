@@ -1,4 +1,4 @@
-function merge_sort(array){
+function merge_sort(array){  // 归并排序
    return merge_sort_c(array,0,array.length - 1);
 }
 function merge_sort_c(array,p,r){
